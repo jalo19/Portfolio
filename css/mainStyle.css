@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFA;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.author {
+    font-size: 1.1em;
+}
+
+.header-container {
+    align-self: flex-end;
+}
+
+.header-icon {
+    background-image: url("../img/pumpkin.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 1200px;
+    display: none;
+    margin-left: 7.5em;
+}
+
+.profile-pic {
+    background-image: url("../img/spades.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 8.5em;
+    height: 8.5em;
+    margin-left: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+section {
+    margin-top: 4em;
+}
+
+.skills h2 {
+    margin-bottom: 0.8em;
+}
+
+header .card {
+    width: 15rem;
+    height: 26rem;
+    margin-top: 8rem;
+    margin-left: 0px;
+}
+
+#contacts li {
+    font-size: 1.2em;
+}
+
+#credits li, #contacts li {
+    margin-top: 1.5em;
+}
+
+a:hover {
+    border-style: solid;
+    border-width: 0 0 0 2px;
+    padding-left: 0.3em;
+    text-decoration: none;
+}
+
+section a:hover {
+    border-width: 0 0 2px 0;
+}
+
+a:hover, #contacts ul a:hover, #credits a:hover {
+    color: #04B4B6;
+}
+
+nav a, #contacts a {
+    color: #585858;
+}
+
+#credits a {
+    color: #4197F4;
+}
+
+.container-fluid {
+    position: fixed;
+    transform: translate3d(0,0,0); 
+    z-index: 1000;
+}
+
+nav .row {
+    text-align: right;
+    margin-top: 1em;
+}
+
+nav .row div {
+    margin-bottom: 0.5em;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.badge {
+    margin-left: 5em;
+    background-color: black;
+}
+
+section h2 {
+    color: #04B486;
+}
+
+.list-group-item {
+    background-color: #F8F8F8;
+    border: none;
+}
+
+mark {
+    background-color: #FFFD91;
+}
+
+.card-title {
+    color: black;
+}
+
+.experience-desc {
+    font-style: italic;
+}
+
+img {
+    width: 8.5em;
+    height: 8.5em;
+}
+
+.container {
+    margin-left: 1em;
+}
+
+footer {
+    margin-bottom: 1em;
+    margin-top: 3em;
+    text-align: center;
+}
+
+#skip a {
+    position: absolute;
+    top: auto;
+    left: -10000px;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+#skip > a:focus {
+    position: static; 
+    width: auto;
+    height: auto;
+    overflow: visible;
+}
+
+@media (min-width: 576px) {
+
+    header .card {
+        width: 20rem;
+    }
+
+    .container {
+        margin-left: 2em;
+    }
+}
+
+@media (min-width: 768px) {
+
+    nav .row {
+        text-align: right;
+        justify-content: flex-end;
+        margin-right: 2em;
+        margin-top: 1em;
+    }
+
+    .container {
+        margin-left: 5em;
+    }
+}
+
+@media (min-width: 1140px) {
+
+    .container {
+        margin-left: 12.5em;
+    }
+
+    .header-icon {
+        display: block;
+    }
+
+    .profile-pic {
+        background-image: url("../img/soft_cream.png");
+        height: 13em;
+        width: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    .profile-view {
+        background: linear-gradient(45deg, grey, black);
+    }
+
+    .card {
+        box-shadow: 1px 1px 35px #888888;
+    }
+
+    header .card {
+        box-shadow: 10px 10px 50px #888888;
+    }
+}
+
+
