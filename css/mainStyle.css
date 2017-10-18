@@ -29,6 +29,16 @@ h1, h2 {
     margin-left: 7.5em;
 }
 
+hr {
+    border-color: grey;
+    border-width: 3px;
+}
+
+#courses .card p:first-of-type {
+    text-align: center;
+    color: grey;
+}
+
 .profile-pic {
     background-image: url("../img/spades.png");
     background-repeat: no-repeat;
